@@ -4,19 +4,59 @@
     <meta charset="UTF-8">
     <title>Ashley Beckers Official Website</title>
     <style>
-        body {background: darkslategrey;color: azure}
-        table, th, td {background: #2f5a5a;color: azure}
+        body {
+            background: #2f4f4f;
+            color: #f0ffff;
+        }
+        a {
+            color: #f0ffff;
+        }
+        table, th, td {
+            background: #2f5959;
+            color: #f0ffff
+        }
+        div.description {
+            background: #2f2f5a;
+            color: #f0ffff;
+            margin-left: 3em;
+            margin-right: 3em;
+        }
+        <!-- not to be confused with a linked list -->
+        ul.linklist {
+            padding: 1em;
+            list-style-type: circle;
+        }
     </style>
 </head>
 <body>
-    <h1>title goes here</h1>
-    <h5>stuff about me goes here</h5>
-    <p>links will go here. FIGURE OUT WHAT TAG TO USE</p>
+    <h1>My Home Page</h1>
+    <div class="description">
+        <p style="padding: 1em">
+            Welcome to my website! I am Ashley Beckers, a third year student at
+            RIT seeking a bachelor's degree in Computer Science. I am looking forward to going on co-op with Ultimate
+            Software in Spring 2020. I created this page mostly as a way to publish static web page based projects,
+            which are linked below, but I may end up finding ways to add some of my other projects as well. Currently,
+            the only one I have running is a Conway's Game of Life simulator. I am working on adding some interesting
+            functionality to that, so check back in for that.
+        </p>
+        <h5 style="margin-left: 0.5em">Relevant Links and Contact Info</h5>
+        <ul class="linklist" style="padding-bottom: 0.5em">
+            <li>
+                <a href="www.github.com/ajab1470">My github page</a>
+            </li>
+            <li>
+                <p>Email: ajab1470@gmail.com</p>
+            </li>
+            <li>
+                <p>Resume: to be added</p>
+            </li>
+        </ul>
+    </div>
     <table>
         <tr>
             <td>
-                <a href="https://ajab1470.github.io/Conway-Sim/" style="color: azure">
-                <img src="conway_profile.png" width="311" height="155">
+                <a href="https://ajab1470.github.io/Conway-Sim/">
+                <img src="conway_profile.png" width="285" height="146">
                 <br>
                 Conway's Game of Life
                 </a>
